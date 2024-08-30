@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Cave</title>
+    <!-- Normalize  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- links -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Start header -->
+    <header>
+        <div class="logo"><span>Test Me</span></div>
+        <div class="user-sec">
+            <div class="user-account">
+                <div class="new-user">
+                    <button class="singin-btn">Sing in</button>
+                </div>
+                <div class="user">
+                    <div class="user-avater">
+                        <span class="avater">user avter</span>
+                        <span class="user-name">your name</span>
+                    </div>
+                    <div class="sat">
+                        <div class="rate">rate</div>
+                        <div class="inbox">inbox</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="background"></div>
+    <!-- End header -->
+    <!-- Start Test In Page -->
+    <!-- <div class="test">
+        <div class="item">
+            <div class="img">
+                <img src="assets/image/html-code.jpg" alt="">
+            </div>
+            <h3>Html test</h3>
+            <p>Html is Lang Use For Mark Up , And It's old Lang To make Website It's So Good One
+                You Need Test In It With Us To see Your Power
+            </p>
+        </div>
+    </div> -->
+    <!-- End Test In page -->
+    <!-- Start Test Box -->
+    <div class="test-box">
+        <div class="control-box">
+            <div id="timer">
+                <span id="hour"></span>:
+                <span id="min"></span>:
+                <span id="sec"></span>
+            </div>
+            <div class="nav-test">
+                <span class="answer">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span class="answer">6</span>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+            </div>
+        </div>
+        <div class="question-box">
+            <div class="question">
+                <!-- here Will Push All Question From Js -->
+                <h2 id="ask"></h2>
+                <ul class="option">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="silder">
+                <!-- Here Will Be Control For User -->
+                <button id="moveforward">&rightarrow;</button>
+                <div class="plots">
+                    <span class="pass"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="pass"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button id="moveback" class="un-active">&leftarrow;</button>
+                <button id="end">End</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Test Box -->
+    <!-- FontAwsome -->
+    <script src="https://kit.fontawesome.com/16351171e2.js" crossorigin="anonymous"></script>
+    <!-- Main script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

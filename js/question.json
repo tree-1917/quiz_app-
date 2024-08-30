@@ -1,0 +1,22 @@
+    {
+        "question 1" : {
+            "question" : "What From this is not inline-block ?",
+            "option" : "image,a,iframe,div",
+            "correct": "div"
+        },
+        "question 2" : {
+            "question" : "What From this is not inline-block ?",
+            "option" : "image,a,iframe,div",
+            "correct": "div"
+        },
+        "question 3" : {
+            "question" : "What From this is not inline-block ?",
+            "option" : "image,a,iframe,div",
+            "correct": "div"
+        },
+        "question 4" : {
+            "question" : "What From this is not inline-block ?",
+            "option" : "image,a,iframe,div",
+            "correct": "div"
+        }
+    }
