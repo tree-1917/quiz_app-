@@ -47,6 +47,4 @@ If you have any questions or suggestions, feel free to reach out via email at [g
 
 Thanks for checking out **Quiz Cave**! Enjoy testing your knowledge! 🎉
 
-```
 
-```
